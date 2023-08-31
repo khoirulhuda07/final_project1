@@ -1,0 +1,117 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: url("gambar/bg1.png");
+	background-size: cover;
+}
+.text {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.conten {
+	display: none;
+}
+.judul-data {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+.table1 {
+	margin: auto;
+}
+.hrga {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: white;
+} 
+
+.table {
+	background-color: black;
+	margin: 20px auto 50px;
+	 box-shadow: 0 0 11px 1px black;
+	 border-radius: 5px;
+}
+.text-table {
+	text-align: center;
+	 padding: 7px 12px;
+	 background-color: white;
+}
+.tampil {
+	display: block !important;
+}
+.kami {
+	font-size: 30px;
+	margin-top: 19%;
+	text-align: center;
+	color: white;
+}
+.tekan {
+	background-color: yellow;
+    color: red;
+    text-decoration: underline;
+}
+
+td img {
+	width: 300px;
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+.icon a{
+	text-decoration: none;
+	color: black;
+}
+.navbar-main {
+font-size: 30px;
+color: white;
+font-weight: bold;	
+	text-align: center;
+}
+.icon {
+	 height: 500px;
+    width: 85px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 250px);
+    background: red;
+    opacity: 0.7;
+    border-radius: 60px 60px 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon1 {
+	background-color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 4px;
+	border-radius: 7px;
+	text-align: center;
+	margin: auto;
+	border: 2px solid white;
+}
+.icon1:hover {
+	box-shadow: 0px 0px 16px 3px black;
+	cursor: pointer;
+}
+.icon2 {
+	background-color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	border-radius: 7px;
+	text-align: center;
+	margin: auto;
+	border: 2px solid white;
+}
+
+.icon2:hover {
+	box-shadow: 0px 0px 16px 3px black;
+	cursor: pointer;
+}
+
+

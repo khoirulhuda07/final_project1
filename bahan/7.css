@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('gambar/bg.png');
+	background-size: cover;
+}
+
+
+:root {
+	--hijau1: #FD841F;
+	--hijau2: #FD841F;
+	--hijau3: #FD841F;
+	--hijau: #9D2235;
+	--red: red;
+}
+.conten {
+	display: none;
+}
+.tekan {
+	background-color: yellow;
+    color: red;
+    text-decoration: underline;
+}
+.judul-data {
+	text-align: center;
+}
+.btn-menu {
+	margin-left: 10px;
+	border-radius: 12px;
+	border: 2px solid yellow;
+	padding: 6px;
+	font-size: 25px;
+	color: var(--red);
+}
+.user {
+	margin-left: 10px;
+	border-radius: 12px;
+	border: 2px solid yellow;
+	padding: 6px;
+	font-size: 25px;
+	color: var(--red);
+}
+.gmbr {
+	width: 60px;
+	height: 60px;
+}
+
+.user:hover {
+cursor: pointer;
+		box-shadow: 0 0 11px 1px black;	
+}
+.btn-menu:hover {
+	cursor: pointer;
+		box-shadow: 0 0 11px 1px black;
+}
+
+.btn-tmbh {
+	margin-left: 60%;
+	border-radius: 7px;
+	background-color: white;
+	border: 2px solid black;
+	padding: 7px;
+	color: black;
+}
+.btn-tmbh:hover {
+	cursor: pointer;
+	background-color: yellowgreen;
+	box-shadow: 0 0 11px 1px black;
+}
+.table {
+	background-color: black;
+	margin: 20px auto 50px;
+	 box-shadow: 0 0 11px 1px black;
+	 border-radius: 5px;
+}
+.text-table {
+	text-align: center;
+	 padding: 7px 12px;
+	 background-color: white;
+}
+.header {
+	top: 0;
+	left: 0;
+	background-color:;
+	width: 100%;
+	border-bottom: 5px solid var(--hijau);
+}
+.hidden {
+	display: none;
+}
+.div {
+	display: flex;
+}
+.tampil {
+	display: block !important;
+}
+
+.btn-logout  {
+	border: 2px var(--hijau1);
+	margin-left: auto;
+	width: 50px;
+	border: 3px solid orange;
+	padding: 15px;
+	text-align: center;
+	height: 15px;
+	opacity: 0.5;
+	border-radius: 10px;
+	background-color: white;
+	
+}
+.btn-logout:hover {
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 2px 1px 14px 3px rgba(0,0,0,0.75);
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.flex {
+	display: flex;
+}
+.navbar span{
+	font-size: 7px;
+	margin: 2px 5px;
+	color: black;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.66);
+	padding: 7px 2px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.menu {	
+	display: flex;
+	margin-left: auto;
+	margin-top: 3px;
+	margin-bottom: 2px;
+	padding: 8px;
+}
+.menu a {
+	border: 3px solid var(--hijau);
+	border-radius: 6px;
+	margin-left: 5px;
+}
+.footer {
+	position: fixed;
+	background: rgba(253, 132, 31, 0.7);
+	width: 100%;
+	color: white;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	bottom: 0;
+	left: 0;
+	border-top: 5px solid var(--hijau);
+}
+
+@keyframes font {
+	0% {color: yellow;}
+	25% {color: red;}
+	50% {color: green;}
+	100% {color: blue;}
+}
